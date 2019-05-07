@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url("merchandise.css");
+
+html, body{
+	width: 1920px;
+	align-content:center;
+	
+}
+
+div{
+	margin: 0 auto;
+}
+
+.top-banner img{
+	width: 40%;
+	height: 25%;
+	margin-bottom: 50px;
+	margin-left: 30%;
+}
+
+img{
+	width: 75%;
+}
+
+.abbey{
+	margin-top: 8px;
+}
+
+.sgtppr{ 
+margin-top:8px;
+}
+
+h2{
+	font-size: 16pt;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-decoration: underline;
+	text-align: center;
+	color: black;
+	font-weight: 300;
+	margin-left: auto;
+}
+
+#tour:hover{
+	color: #b3ae2c;
+}
+
+#band:hover{
+	color:#ee4b80;
+}
+
+#music:hover{
+	color:#50a8c0;
+}
+
+#merch:hover{
+	color:#d3362f;
+}
+
+h3{
+	font-size: 16pt;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-style: none;
+	text-align: center;
+	color: black;
+	font-weight: 300;
+	text-decoration: underline;
+	margin-left: auto;
+}
+
+
+.nav-bar{
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	list-style-type: inline;
+
+	
+}
+
+#menu{
+	margin-bottom: 75px;
+	width: 100%;
+	float: inherit;
+	table-layout: auto;
+	align-content: center;
+	margin-left: auto;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+
+}
+
+.contact{
+	margin-left: -60px;
+}
+
+.footer{
+	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 200;
+	float: inherit;
+	justify-content: center;
+	margin-left: 50%;
+	color: black;
+	margin-bottom: 75px;
+}
+
+a:hover{
+	color: #f5d33e;
+}
+
+
+@media (max-width:768px){
+}
+
+

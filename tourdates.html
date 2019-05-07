@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tour Dates</title>
+<link href="css/tourdates.css" rel="stylesheet" type="text/css">
+
+
+</head>
+	
+
+<div class="container" id="page-wrapper">
+		<header class="header">
+  <a href="homepage.html" class="logo"><img src="images/beatleslogovector.png" alt=""></a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="about.html" id="band">The Band</a></li>
+    <li><a href="tourdates.html" id="tour">Tour Dates</a></li>
+    <li><a href="music/music.html" id="music">Music</a></li>
+    <li><a href="https://thebeatlesstore.com/" id="merch">Merchandise</a></li>
+  </ul>
+</header>	
+	</div>
+	
+<body>
+	
+<div class="slides" id="slideshow">
+	<img class="mySlides" src="images/tourdates-color.jpeg" alt"">
+	<img class="mySlides" src="images/live2.jpg" alt"">
+	<img class="mySlides" src="images/live1.jpg" alt"">
+</div>
+	<script>
+		var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+	</script>
+	
+<div id="tourdates">		
+<h1>Beatle's Tour of '66</h1>
+	<div class="table">
+	<table style="width:100%">
+  <tr>
+    <th>Date</th>
+    <th>City</th> 
+    <th>Venue</th>
+  </tr>
+  <tr>
+    <td>1 May</td>
+    <td>London, England</td> 
+    <td>Empire Pool</td>
+  </tr>
+  <tr>
+    <td>24 June</td>
+    <td>Munich, Germany</td> 
+    <td>Circus Krone Building</td>
+  </tr>
+		<tr>
+    <td>25 June</td>
+    <td>Essen, Germany</td> 
+    <td>Grugahalle</td>
+  </tr><tr>
+    <td>26 June</td>
+    <td>Hamburg, Germany</td> 
+    <td>Ernst Merck Halle</td>
+  </tr>
+		<tr>
+    <td>30 June</td>
+    <td>Tokyo, Japan</td> 
+    <td>Nippon Budokan</td>
+  </tr>
+		<tr>
+    <td>1 July </td>
+    <td>Tokyo, Japan</td> 
+    <td>Nippon Budokan</td>
+  </tr>
+		<tr>
+    <td>2 July </td>
+    <td>Tokyo, Japan</td> 
+    <td>Nippon Budokan</td>
+  </tr>
+		<tr>
+    <td>4 July (Afternoon)</td>
+    <td>Manila, Phillipines</td> 
+    <td>Rizal Memorial Football Stadium</td>
+  </tr>
+		<tr>
+    <td>4 July (Evening)</td>
+    <td>Manila, Phillipines</td> 
+    <td>Rizal Memorial Football Stadium</td>
+  </tr>
+		<tr>
+    <td>12 August</td>
+    <td>Chicago, Illinois, USA</td> 
+    <td>International Amphitheatre</td>
+  </tr>
+		<tr>
+    <td>13 August</td>
+    <td>Detroit, Michigan, USA</td> 
+    <td>Olympia Stadium</td>
+  </tr>
+		<tr>
+    <td>14 August</td>
+    <td>Cleveland, Ohio, USA</td> 
+    <td>Cleveland Stadium</td>
+  </tr>
+		<tr>
+    <td>15 August</td>
+    <td>Washington D.C, USA</td> 
+    <td>International Amphitheatre</td>
+  </tr>
+		<tr>
+    <td>16 August</td>
+    <td>Philadelphia, Pennsylvania, USA</td> 
+    <td>John F. Kennedy Stadium</td>
+  </tr>
+		<tr>
+    <td>17 August</td>
+    <td>Toronto, Ontario, Canada</td> 
+    <td>Maple Leaf Gardens</td>
+  </tr>
+		<tr>
+    <td>18 August</td>
+    <td>Boston, Massachusetts, USA</td> 
+    <td>Suffolk Downs Racetrack</td>
+  </tr>
+		<tr>
+    <td>19 August</td>
+    <td>Memphis, Tennessee, USA</td> 
+    <td>Mid-South Coliseum</td>
+  </tr>
+		<tr>
+    <td>21 August</td>
+    <td>Cincinnati, Ohio, USA</td> 
+    <td>Crosley Field</td>
+  </tr>
+		<tr>
+    <td>21 August</td>
+    <td>St. Louis, Missouri, USA</td> 
+    <td>Busch Stadium</td>
+  </tr>
+		<tr>
+    <td>23 August</td>
+    <td>New York City, New York, USA</td> 
+    <td>Shea Stadium</td>
+  </tr>
+		<tr>
+    <td>25 August</td>
+    <td>Seattle, Washington, USA</td> 
+    <td>Seattle Center Coliseum</td>
+  </tr>
+		<tr>
+    <td>28 August</td>
+    <td>Los Angeles, California, USA</td> 
+    <td>Dodger Stadium</td>
+  </tr>
+		<tr>
+    <td>29 August</td>
+    <td>San Francisco, California, USA</td> 
+    <td>Candlestick Park</td>
+  </tr>
+</table>
+	
+	</div>
+
+	</div>	
+	
+	
+</body>
+
+	
+	<div class="footer">
+	<a href="contact.html">CONTACT US</a>
+	</div>
+	
+
+</html>
+
+
+
